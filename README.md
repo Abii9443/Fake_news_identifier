@@ -1,1 +1,3 @@
-Fake news identification : heroku app link: https://fake-news-find.herokuapp.com/
+Fake news identification is based upon check whether the news will be real or fake.
+Here I am using machine learning algorithm like logistic, decision tree and random forest classifier upon that the decison tree classifier is getting more accuracy compare to other. And using some NLP techniques for preprocessing the text like tokenization, remove stop words, Lemmatization, count vectorizer, Tfid-Vectorizer.Text Analysis by using NLP to make the text more efficient by understanding the inputs. After training the model I save it in sav file for future use, so need not to training the model again.Built API’s using Flask, Integrated all the Analysis in a web application and deployed in Heroku for accessing the application globally. The link for the app is given below
+App link: https://fake-news-find.herokuapp.com/
